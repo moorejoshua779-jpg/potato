@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+/* Header & Top Navigation Section */
+header {
+    background: radial-gradient(ellipse at center,
+      rgba(192,169,145,1) 0%, rgba(192,169,145,1) 59%, rgba(168,143,121,1) 100%);
+    padding: 30px 50px 60px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    right: 50px;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.nav-primary {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-item a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.button-cta a {
+    border: 2px solid #ffffff;
+    padding: 8px 22px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.button-cta a:hover {
+    background-color: #8c735d;
+    border-color: #8c735d;
+}
+
+/* Hero Content */
+.header-title {
+    font-size: 48px;
+    font-weight: 300;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.header-subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+
+.header-potato {
+    max-width: 420px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Features Section */
+.features {
+    padding: 80px 20px;
+    text-align: center;
+    background: url("potato-background.png") no-repeat center center / cover;
+}
+
+.features-title {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    color: #333333;
+}
+
+.features-subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 500px;
+    margin: 0 auto 40px;
+    line-height: 1.5;
+    color: #666666;
+}
+
+.feature-potatoes {
+    max-width: 320px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Pricing / Order Section */
+.buy-now {
+    padding: 60px 20px 80px;
+    text-align: center;
+}
+
+.order-title {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    color: #333333;
+}
+
+.potato-types {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.potato {
+    flex: 1;
+    padding: 0 30px;
+    border-right: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.potato:last-child {
+    border-right: none;
+}
+
+.potato-title {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.potato-features {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.potato-description {
+    margin-bottom: 12px;
+    color: #777777;
+    font-size: 14px;
+}
+
+.btn-order {
+    background-color: transparent;
+    padding: 8px 30px;
+    border: 2px solid #8cb300;
+    border-radius: 20px;
+    color: #8cb300;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-order:hover {
+    background-color: #8cb300;
+    color: #ffffff;
+}
+
+.potato-price {
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 30px;
+}
+
+.potato-img {
+    height: 110px;
+    object-fit: contain;
+}
+
+/* Footer Section */
+footer {
+    background-color: #7a6552;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-text {
+    font-size: 13px;
+    font-weight: 700;
+}
